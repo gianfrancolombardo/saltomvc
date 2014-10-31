@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+/**
+ * Copyright 2014 Gianfranco Lombardo. All Rights Reserved.
+ *
+ * bin/saltomvc
+ * saltomvc
+ */
+
+require('../main.js');

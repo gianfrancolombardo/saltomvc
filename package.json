@@ -2,8 +2,7 @@
   "name": "saltomvc",
   "version": "0.1.0",
   "description": "Node command line application to creating template for MVC entities, with mongoose and express framework",
-  "preferGlobal": false,
-  "main": "index",
+  "main": "./main",
   "scripts": {
     "test": "echo \"test\""
   },
