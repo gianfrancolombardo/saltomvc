@@ -1,10 +1,10 @@
 {
   "name": "saltomvc",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Node command line application to creating template for MVC entities, with mongoose and express framework",
   "main": "./main",
-  "scripts": {
-    "test": "echo \"test\""
+  "bin": {
+    "saltomvc": "./bin/saltomvc"
   },
   "repository": {
     "type": "git",
