@@ -1,6 +1,6 @@
 {
   "name": "saltomvc",
-  "version": "0.1.4",
+  "version": "0.1.4b",
   "description": "Node command line application to creating files for entities MVC, based on configurable templates.",
   "main": "./main",
   "bin": {
