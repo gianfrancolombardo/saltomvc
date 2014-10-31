@@ -10,8 +10,8 @@ The idea is that every time you start a new project, if you decided to do a proj
 With this module you can automatically create controllers, models and routes of entities in your project. Are generated based on templates files, which, you can modify to suit your needs.
 
 This project is designed to MVC project with (optional):
-	- [Express Framework](http://expressjs.com/)
-	- [Mongoose ODM](http://mongoosejs.com/)
+* [Express Framework](http://expressjs.com/)
+* [Mongoose ODM](http://mongoosejs.com/)
 
 
 ## Installation
@@ -27,13 +27,18 @@ This will install crest globally so that it may be run from the command line.
 This will install crest as a module to be used as a part of some other project.
 
 ### Clone with git
-    git clone git://github.com/Cordazar/crest.git
+    git clone git://github.com/gianfrancolombardo/saltomvc.git
 
 
 ## Usage
-If installed globally you can just run, in your project folder
+If installed globally you can just run (in your project folder)
 
     saltomvc [entity1] [entity2] ... [entityN]
+
+if installed local module you can just run (in your project folder) 
+
+    node ./node_modules/saltomvc/main.js [entity1] [entity2] ... [entityN]
+    
 
 ## License
   
