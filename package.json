@@ -1,6 +1,6 @@
 {
   "name": "saltomvc",
-  "version": "0.1.4b",
+  "version": "0.1.5d",
   "description": "Node command line application to creating files for entities MVC, based on configurable templates.",
   "main": "./main",
   "bin": {
@@ -13,7 +13,7 @@
   "keywords": [
     "MVC",
     "express",
-    "mongoose",
+    "sequelize",
     "generator",
     "templates",
     "entities"

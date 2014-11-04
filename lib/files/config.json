@@ -1,0 +1,25 @@
+{
+    "development": {
+        "database": "",
+        "username": "root",
+        "password": ""
+    },
+
+    "test": {
+        "database": "",
+        "username": "root",
+        "password": ""
+    },
+
+    "staging": {
+        "database": "",
+        "username": "root",
+        "password": ""
+    },
+
+    "production": {
+        "database": "",
+        "username": "root",
+        "password": ""
+    }
+}

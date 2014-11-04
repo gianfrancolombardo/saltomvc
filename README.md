@@ -1,7 +1,7 @@
 
 # SaltoMVC
 
-[SaltoMVC](https://github.com/gianfrancolombardo/saltomvc) is a file generator for entities MVC
+[SaltoMVC](https://github.com/gianfrancolombardo/saltomvc) is a file generator for entities MVC for app CRUD
 
 ## About
 
@@ -11,7 +11,7 @@ With this module you can automatically create controllers, models and routes of 
 
 This project is designed to MVC project with (optional):
 * [Express Framework](http://expressjs.com/)
-* [Mongoose ODM](http://mongoosejs.com/)
+* [Sequelize ORM](http://sequelizejs.com/)
 
 
 ## Installation
@@ -39,6 +39,15 @@ if installed local module you can just run (in your project folder)
 
     node ./node_modules/saltomvc/main.js [entity1] [entity2] ... [entityN]
     
+## Customs templates    
+You can edit the templates to taste, to obtain a solution that fits your needs.
+
+#### The template are in the folder: 
+	./node_modules/saltomvc/lib/templates/
+
+### Important:
+You must understand and respect the sentensia {{ENTITY}} because that's where is replaced by the name of your entity
+
 
 ## License
   
